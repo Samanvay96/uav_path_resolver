@@ -21,7 +21,7 @@ This issue can be resolved by having a third GPS satellite resolve the location 
 
 Two given data ﬁles were used for this task. The ﬁrst was GPS pseudorange F1.txt. This ﬁle contained pseudoranges as calculated from the UAV to all visible satellites. The second was UAVPostion F1.txt. This ﬁle contained the true position of the UAV. The ﬂowchart in ﬁgure 2 describes the process of UAV trajectory determination from given pseudorange data. Non-Linear Least Squares regression was used for this process.
 
-INSERT IMAGE HERE
+[[https://github.com/Samanvay96/uav_path_resolver/blob/master/imgs/flowchart.png|alt=flowchart]]
 
 The equations to ﬁnding f(x 0 ) & H can be found in section A of the appendix. The ﬂowchart in ﬁgure 2. The vector X 0 is in the form X 0 = [x, y, z, cb U ] where cb U is the clock bias. The latter is a measure of the time oﬀset in the GPS receiver on ground.
 
