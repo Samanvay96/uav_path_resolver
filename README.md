@@ -35,8 +35,8 @@ NLLS stands for non-linear least squares. It is a method used to ﬁnd solutions
 
 The equations used to ﬁnd the DOP values can be found using the Variances found by diagonalising (HTH)^(−1) where H is the Jacobian, the rate of change matrix shown in ﬁgure 2. As it was a M × 4 matrix, diagonalising led to [Vx, Vy, Vz, Vt] where V represents the variance and the subscript represents the relevant dataset. Equations listed in section A of the appendix were used to calculate the DOP values.
 
-![flowchart](https://github.com/Samanvay96/uav_path_resolver/blob/master/imgs/bestNworst.png)
-![flowchart](https://github.com/Samanvay96/uav_path_resolver/blob/master/imgs/uavAltitude.png)
+![flowchart](https://github.com/Samanvay96/uav_path_resolver/blob/master/imgs/bestNworst.png|width=100)
+![flowchart](https://github.com/Samanvay96/uav_path_resolver/blob/master/imgs/uavAltitude.png|width=100)
 
 |              | GDOP  | PDOP  | HDOP  | VDOP  | TDOP  |
 | -----------  | ----- | ----- | ----- | ----- | ----- |
